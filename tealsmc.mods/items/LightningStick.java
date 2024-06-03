@@ -22,7 +22,9 @@ public class LightningStick extends Item
     @Override
     public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player)
     {
+        // Send a ray out to get the right-clicked block.
         MovingObjectPosition mop = Minecraft.getMinecraft().renderViewEntity.rayTrace(200, 1.0F);
+        // Is the result null?
         if(mop != null) {
             int blockHitSide = mop.sideHit;
         }
