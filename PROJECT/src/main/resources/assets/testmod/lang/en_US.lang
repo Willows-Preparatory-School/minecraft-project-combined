@@ -1,0 +1,20 @@
+item.test_item.name=Test Item
+item.throwing_rock.name=Rock
+item.elytra.name=Elytra
+
+tile.sulfuric_acid.name=Sulfuric Acid
+tile.chlorine.name=Chlorine
+tile.molten_spacetime.name=Molten Spacetime
+tile.nitrogendioxide.name=Nitrogen Dioxide
+tile.tritium.name=Tritium
+tile.test.name=Test Liquid :3
+
+tile.slime_block.name=Slime Block
+tile.soul_torch.name=The funny blue torch from newer versions of Minecraft™
+tile.particle_test.name=Particle Test (power with redstone)
+
+entity.testmod.endermite.name=Endermite
+entity.testmod.husk.name=Husk
+entity.testmod.stray.name=Stray
+
+itemGroup.tabTestMod=TestMod :3

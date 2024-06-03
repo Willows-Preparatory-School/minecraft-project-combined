@@ -1,0 +1,134 @@
+{
+	"item.elytra.flying": {
+		"category": "player",
+		"sounds": [
+			{
+				"name": "testmod:elytra_loop",
+				"volume": 0.6
+			}
+		]
+	},
+	"block.slime_block.break":
+	{
+    "category": "block",
+    "sounds": [
+        {
+          "name": "testmod:block/slime/big1",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/big2",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/big3",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/big4",
+          "volume": 1.0
+        }
+    ]
+	},
+  "block.slime_block.step":
+	{
+    "category": "block",
+    "sounds": [
+        {
+          "name": "testmod:block/slime/small1",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/small2",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/small3",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/small4",
+          "volume": 1.0
+        },
+        {
+          "name": "testmod:block/slime/small5",
+          "volume": 1.0
+        }
+    ]
+	},
+  "entity.husk.ambient":
+  {
+    "sounds": [
+      "testmod:mob/husk/idle1",
+      "testmod:mob/husk/idle2",
+      "testmod:mob/husk/idle3"
+    ]
+  },
+  "entity.husk.converted_to_zombie":
+  {
+    "sounds": [
+      {
+        "name": "testmod:mob/husk/convert1",
+        "volume": 0.8
+      },
+      {
+        "name": "testmod:mob/husk/convert2",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.husk.death":
+  {
+    "sounds": [
+      "testmod:mob/husk/death1",
+      "testmod:mob/husk/death2"
+    ]
+  },
+  "entity.husk.hurt":
+  {
+    "sounds": [
+      "testmod:mob/husk/hurt1",
+      "testmod:mob/husk/hurt2"
+    ]
+  },
+  "entity.husk.step":
+  {
+    "sounds": [
+      "testmod:mob/husk/step1",
+      "testmod:mob/husk/step2",
+      "testmod:mob/husk/step3",
+      "testmod:mob/husk/step4",
+      "testmod:mob/husk/step5"
+    ]
+  },
+  "entity.stray.ambient": {
+    "sounds": [
+      "testmod:mob/stray/idle1",
+      "testmod:mob/stray/idle2",
+      "testmod:mob/stray/idle3",
+      "testmod:mob/stray/idle4"
+    ]
+  },
+  "entity.stray.death": {
+    "sounds": [
+      "testmod:mob/stray/death1",
+      "testmod:mob/stray/death2"
+    ]
+  },
+  "entity.stray.hurt": {
+    "sounds": [
+      "testmod:mob/stray/hurt1",
+      "testmod:mob/stray/hurt2",
+      "testmod:mob/stray/hurt3",
+      "testmod:mob/stray/hurt4"
+    ]
+  },
+  "entity.stray.step": {
+    "sounds": [
+      "testmod:mob/stray/step1",
+      "testmod:mob/stray/step2",
+      "testmod:mob/stray/step3",
+      "testmod:mob/stray/step4"
+    ]
+  }
+}
