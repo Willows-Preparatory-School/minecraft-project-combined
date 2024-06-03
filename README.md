@@ -1,8 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/liZ3sWt9)
-# Minecraft-Project
-The template for GitHub classroom for the open-ended project submissions.
-
-Submit your files with thorough documentation. Don't forget to register your changes in the corresponding module class (included in this comment). Don't add unnecessary files from the labs; solely add your summative concepts and their registration. 
 
 ## README!!!
 so i kinda didn't use the TEALS mod loader for most of my items/blocks/entites/etc, <br>
@@ -24,3 +20,8 @@ it does the same thing mixins do, but is less compatible between mods and Minecr
 Mixins let forge handle all of the injection, but ASM requires you yourself to handle all the Java bytcode <br>
 modification, which can cause issues between mods. ASM is considered legacy now and mixins are the prefered <br>
 method now. <br>
+
+# Minecraft-Project
+The template for GitHub classroom for the open-ended project submissions.
+
+Submit your files with thorough documentation. Don't forget to register your changes in the corresponding module class (included in this comment). Don't add unnecessary files from the labs; solely add your summative concepts and their registration. 
