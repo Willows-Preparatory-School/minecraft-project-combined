@@ -10,6 +10,10 @@ but ill provide info below! <br>
 3. it should show up as a gradle project <br>
 4. it should run automatically, if not run "build.gradle" <br>
 5. if you need more help, just ask me. <br>
+<br>
+ALSO!!! <br>
+i had to paste the root project files into the root github directory, <br>
+sorry if it looks messy, there really wasn't a way around this.
 
 ## Extra info
 ### What are mixins/asm?
@@ -24,4 +28,4 @@ method now. <br>
 # Minecraft-Project
 The template for GitHub classroom for the open-ended project submissions.
 
-Submit your files with thorough documentation. Don't forget to register your changes in the corresponding module class (included in this comment). Don't add unnecessary files from the labs; solely add your summative concepts and their registration. 
+Submit your files with thorough documentation. Don't forget to register your changes in the corresponding module class (included in this comment). Don't add unnecessary files from the labs; solely add your summative concepts and their registration.
