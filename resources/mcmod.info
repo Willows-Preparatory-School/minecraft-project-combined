@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "A Minecraft 1.7.10 mod with random stuff! Along with the TEALs mod loader too.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://example.com",
+		"updateUrl": "",
+		"authorList": ["amy", "axolotl"],
+		"credits": "",
+		"logoFile": "logo.png",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}
