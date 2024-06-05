@@ -2,6 +2,7 @@
 
 ## README!!!
 **NOTE: this probably isn't up to date, so before you do anything, ask me for an updated copy.** <br>
+**NOTE2: I have removed the project files, for now, ill add them back once everything is tested.** <br>
 so i kinda didn't use the TEALS mod loader for most of my items/blocks/entites/etc, <br>
 cause i wanted more freedom with modding. <br>
 so im going to just provide my entire project file. uhhhh, it shouldn't be that hard to figure out how to use it, <br>
