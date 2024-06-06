@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Used to load sub modules that make modding much easier!\n!!!Modified by amy!!!",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://example.com",
+		"updateUrl": "",
+		"authorList": ["amy E.", "Connor Hollasch", "Steve Hollasch"],
+    "credits": "TEALS k12",
+		"logoFile": "icon.png",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}

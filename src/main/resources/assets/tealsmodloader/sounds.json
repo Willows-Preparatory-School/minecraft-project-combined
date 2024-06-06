@@ -1,0 +1,134 @@
+{
+	"item.elytra.flying": {
+		"category": "player",
+		"sounds": [
+			{
+				"name": "tealsmodloader:elytra_loop",
+				"volume": 0.6
+			}
+		]
+	},
+	"block.slime_block.break":
+	{
+    "category": "block",
+    "sounds": [
+        {
+          "name": "tealsmodloader:block/slime/big1",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/big2",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/big3",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/big4",
+          "volume": 1.0
+        }
+    ]
+	},
+  "block.slime_block.step":
+	{
+    "category": "block",
+    "sounds": [
+        {
+          "name": "tealsmodloader:block/slime/small1",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/small2",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/small3",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/small4",
+          "volume": 1.0
+        },
+        {
+          "name": "tealsmodloader:block/slime/small5",
+          "volume": 1.0
+        }
+    ]
+	},
+  "entity.husk.ambient":
+  {
+    "sounds": [
+      "tealsmodloader:mob/husk/idle1",
+      "tealsmodloader:mob/husk/idle2",
+      "tealsmodloader:mob/husk/idle3"
+    ]
+  },
+  "entity.husk.converted_to_zombie":
+  {
+    "sounds": [
+      {
+        "name": "tealsmodloader:mob/husk/convert1",
+        "volume": 0.8
+      },
+      {
+        "name": "tealsmodloader:mob/husk/convert2",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.husk.death":
+  {
+    "sounds": [
+      "tealsmodloader:mob/husk/death1",
+      "tealsmodloader:mob/husk/death2"
+    ]
+  },
+  "entity.husk.hurt":
+  {
+    "sounds": [
+      "tealsmodloader:mob/husk/hurt1",
+      "tealsmodloader:mob/husk/hurt2"
+    ]
+  },
+  "entity.husk.step":
+  {
+    "sounds": [
+      "tealsmodloader:mob/husk/step1",
+      "tealsmodloader:mob/husk/step2",
+      "tealsmodloader:mob/husk/step3",
+      "tealsmodloader:mob/husk/step4",
+      "tealsmodloader:mob/husk/step5"
+    ]
+  },
+  "entity.stray.ambient": {
+    "sounds": [
+      "tealsmodloader:mob/stray/idle1",
+      "tealsmodloader:mob/stray/idle2",
+      "tealsmodloader:mob/stray/idle3",
+      "tealsmodloader:mob/stray/idle4"
+    ]
+  },
+  "entity.stray.death": {
+    "sounds": [
+      "tealsmodloader:mob/stray/death1",
+      "tealsmodloader:mob/stray/death2"
+    ]
+  },
+  "entity.stray.hurt": {
+    "sounds": [
+      "tealsmodloader:mob/stray/hurt1",
+      "tealsmodloader:mob/stray/hurt2",
+      "tealsmodloader:mob/stray/hurt3",
+      "tealsmodloader:mob/stray/hurt4"
+    ]
+  },
+  "entity.stray.step": {
+    "sounds": [
+      "tealsmodloader:mob/stray/step1",
+      "tealsmodloader:mob/stray/step2",
+      "tealsmodloader:mob/stray/step3",
+      "tealsmodloader:mob/stray/step4"
+    ]
+  }
+}

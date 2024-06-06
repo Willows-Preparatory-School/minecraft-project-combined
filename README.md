@@ -1,33 +1,34 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/liZ3sWt9)
 
-## README!!!
-**NOTE: this probably isn't up to date, so before you do anything, ask me for an updated copy.** <br>
-**NOTE2: I have removed the project files, for now, ill add them back once everything is tested.** <br>
-so i kinda didn't use the TEALS mod loader for most of my items/blocks/entites/etc, <br>
-cause i wanted more freedom with modding. <br>
-so im going to just provide my entire project file. uhhhh, it shouldn't be that hard to figure out how to use it, <br>
-but ill provide info below! <br>
-1. Clone the repo <br>
-2. Open the "PROJECT" folder in intellij <br>
-3. it should show up as a gradle project <br>
-4. it should run automatically, if not run "build.gradle" <br>
-5. if you need more help, just ask me. <br>
+# README
+## Setup
+1. Clone the repo
+2. Open the repo's root folder in Intellij
+3. When you open it, it should trigger a Gradle clean build process. <br>
+(depending on certain conditions, you may need to be on a wifi network with minecraftforge.net unblocked)
+4. Click on the "Gradle" tab on the right, and under the dropdown Tasks > build, double click on "clean" (img below) <br>
+   ![](imgs/setup01.png)
+5. Then test if everything works by going the Run dropdown and selecting "1. Run Client" and press the green triangle start button (img below) <br>
+   ![](imgs/setup02.png)
+6. If you see the client open & load without issues, you're done!!! <br>
+NOTE: You may see errors in the console, if everything you're doing is working fine, then ignore it, it's my stuff.
+## Adding other people's code & stuff
+1. Under the package ``dev.axolotl.tealsmodloader.tealsmc.mods`` there should be the normal block, items, entities, etc folders.
+2. Just add the files in there and register them as needed in the module classes.
+3. If you need to register custom modules, enter the ``TEALSModLoader.java`` class under ``dev.axolotl.tealsmodloader.tealsmodloader``, <br>
+and scroll to about line 136 and the module's class to the `List` (img below) <br>
+   ![](imgs/adding_stuff01.png)
+4. If you need to register custom entities & their renderers, look at lines 155 & 177 in ``TEALSModLoader.java`` for examples.
+## Exporting it all
+1. Run the "build" task under the Gradle tab, if it errors with a ``spotlessJavaCheck``, as long as the compiled file exists everything is fine.
+2. The generated file should be under "build/libs/"
+3. The jar file you want ends with "-dirty" and only that, for example: ``tealsmodloader-5258345-main+5258345540-dirty.jar``
+4. You also need to grab the .jar files from the ``NEEDED_LIBRARIES`` folder as it's a dependency. <br>
+   (I could fix this by compiling it into the final mod jar, but that would take more time to setup)
+## Extra things!
+### Creative items tabs
+If you wanted to, you could set each item's & block's creative tab to ``TestMod.tabTestMod`` <br>
+using ``setCreativeTab(TestMod.tabTestMod);`` and then they would all appear under a custom tab in creative mode to make them easier to find. <br>
 <br>
-ALSO!!! <br>
-i had to paste the root project files into the root github directory, <br>
-sorry if it looks messy, there really wasn't a way around this.
-
-## Extra info
-### What are mixins/asm?
-Mixins are a way of modifying minecraft's code within a mod, for example I could hook into ItemBookEditable, <br>
-and print a message everytime a book is opened. Or I could change the content of functions. <br>
-ASM is similar to mixins, but not the same. ASM is older and was used before mixins were created, <br>
-it does the same thing mixins do, but is less compatible between mods and Minecraft versions. <br>
-Mixins let forge handle all of the injection, but ASM requires you yourself to handle all the Java bytcode <br>
-modification, which can cause issues between mods. ASM is considered legacy now and mixins are the prefered <br>
-method now. <br>
-
-# Minecraft-Project
-The template for GitHub classroom for the open-ended project submissions.
-
-Submit your files with thorough documentation. Don't forget to register your changes in the corresponding module class (included in this comment). Don't add unnecessary files from the labs; solely add your summative concepts and their registration.
+<br>
+If you need help with anything, just let me know. ^-^
