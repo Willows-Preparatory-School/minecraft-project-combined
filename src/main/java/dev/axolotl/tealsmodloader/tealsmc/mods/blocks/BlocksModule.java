@@ -22,6 +22,9 @@ public class BlocksModule extends Module {
 
     public static final UselessBox uselessBox = new UselessBox();
 
+    public static final MaterialGeneratorBlock materialGeneratorBlock = new MaterialGeneratorBlock();
+    public static final BatteryGeneratorBlock batteryGeneratorBlock = new BatteryGeneratorBlock();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -38,5 +41,8 @@ public class BlocksModule extends Module {
         parentMod.blockRegistry.newInstance("endpoint_block", endpointBlock, "End Point");
 
         parentMod.blockRegistry.newInstance("useless_box", uselessBox, "Useless Box");
+
+        parentMod.blockRegistry.newInstance("material_generator_block", materialGeneratorBlock, "Material Generator Block");
+        parentMod.blockRegistry.newInstance("10percent", batteryGeneratorBlock, "Battery Generator Block");
     }
 }
