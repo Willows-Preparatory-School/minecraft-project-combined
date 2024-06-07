@@ -20,6 +20,11 @@ public class ItemsModule extends Module {
 
     public static final Detonator detonator = new Detonator();
 
+    public static final Rapier rapier = new Rapier();
+    public static final Filament filament = new Filament();
+    public static final UnrefinedPlastic unrefinedPlastic = new UnrefinedPlastic();
+    public static final PlasticRefiner plasticRefiner = new PlasticRefiner();
+
     public void onLoad() {
         parentMod.itemRegistry.newInstance("rock_sifter", rockSifter, "Rock Sifter");
         parentMod.itemRegistry.newInstance("lightning_stick", lightningStick, "Lightning Stick");
@@ -36,5 +41,11 @@ public class ItemsModule extends Module {
         parentMod.itemRegistry.newInstance("battery_item", batteryItem, "Battery Item");
 
         parentMod.itemRegistry.newInstance("Detonator", detonator, "Deto");
+
+        parentMod.itemRegistry.newInstance("img", rapier, "Rapier");
+        parentMod.itemRegistry.newInstance("filament", filament, "Filament");
+        parentMod.itemRegistry.newInstance("unrefined_plastic", unrefinedPlastic, "Unrefined Plastic");
+        parentMod.itemRegistry.newInstance("plastic_refiner", plasticRefiner, "Plastic Refiner");
+
     }
 }

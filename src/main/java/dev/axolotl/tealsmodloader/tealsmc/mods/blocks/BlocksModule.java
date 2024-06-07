@@ -1,6 +1,7 @@
 package dev.axolotl.tealsmodloader.tealsmc.mods.blocks;
 
 import dev.axolotl.tealsmodloader.tealsmodloader.module.Module;
+import net.minecraft.block.Block;
 
 /**
  * All TEALS mod blocks are registered here in order to be displayed in game.
@@ -35,6 +36,9 @@ public class BlocksModule extends Module {
     public static final PoliceBlock policeBlock = new PoliceBlock();
     public static final GoatBlock goatBlock = new GoatBlock();
 
+    public static final Printer printer = new Printer();
+    public static final Block plasticOre = new PlasticOre();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -64,5 +68,8 @@ public class BlocksModule extends Module {
         parentMod.blockRegistry.newInstance("heyyfysfsd", policeBlock, "Police Block");
         parentMod.blockRegistry.newInstance("th (3)", texturedBlock, "Textured Block");
         parentMod.blockRegistry.newInstance("th (2)", goatBlock, "GoatBlock");
+
+        parentMod.blockRegistry.newInstance("printer", printer, "Printer");
+        parentMod.blockRegistry.newInstance("plastic_ore", plasticOre, "Plastic Ore");
     }
 }
