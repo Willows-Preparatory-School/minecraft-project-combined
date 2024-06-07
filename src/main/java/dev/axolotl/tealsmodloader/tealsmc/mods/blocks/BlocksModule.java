@@ -25,6 +25,10 @@ public class BlocksModule extends Module {
     public static final MaterialGeneratorBlock materialGeneratorBlock = new MaterialGeneratorBlock();
     public static final BatteryGeneratorBlock batteryGeneratorBlock = new BatteryGeneratorBlock();
 
+    public static final PrimerTimer redsonthusk = new PrimerTimer();
+    public static final Explocharge explocharge = new Explocharge();
+    public static final FieldGenerator feltgenerate = new FieldGenerator();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -44,5 +48,9 @@ public class BlocksModule extends Module {
 
         parentMod.blockRegistry.newInstance("material_generator_block", materialGeneratorBlock, "Material Generator Block");
         parentMod.blockRegistry.newInstance("10percent", batteryGeneratorBlock, "Battery Generator Block");
+
+        parentMod.blockRegistry.newInstance("Redstone_Husk", redsonthusk, "Redstone Primer Block");
+        parentMod.blockRegistry.newInstance("explocharge", explocharge, "Explocharge");
+        parentMod.blockRegistry.newInstance("felt", feltgenerate, "Field Generator");
     }
 }

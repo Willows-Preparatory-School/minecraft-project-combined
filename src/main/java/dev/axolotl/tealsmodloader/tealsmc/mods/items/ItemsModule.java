@@ -18,6 +18,8 @@ public class ItemsModule extends Module {
 
     public static final BatteryItem batteryItem = new BatteryItem();
 
+    public static final Detonator detonator = new Detonator();
+
     public void onLoad() {
         parentMod.itemRegistry.newInstance("rock_sifter", rockSifter, "Rock Sifter");
         parentMod.itemRegistry.newInstance("lightning_stick", lightningStick, "Lightning Stick");
@@ -32,5 +34,7 @@ public class ItemsModule extends Module {
         parentMod.itemRegistry.newInstance("the_constructor", constructor, "The Constructor");
 
         parentMod.itemRegistry.newInstance("battery_item", batteryItem, "Battery Item");
+
+        parentMod.itemRegistry.newInstance("Detonator", detonator, "Deto");
     }
 }
