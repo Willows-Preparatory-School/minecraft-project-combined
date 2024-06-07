@@ -29,6 +29,12 @@ public class BlocksModule extends Module {
     public static final Explocharge explocharge = new Explocharge();
     public static final FieldGenerator feltgenerate = new FieldGenerator();
 
+    public static final TexturedBlock texturedBlock = new TexturedBlock();
+    public static final OppBlock oppBlock = new OppBlock();
+    public static final SheepBlock sheepBlock = new SheepBlock();
+    public static final PoliceBlock policeBlock = new PoliceBlock();
+    public static final GoatBlock goatBlock = new GoatBlock();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -52,5 +58,11 @@ public class BlocksModule extends Module {
         parentMod.blockRegistry.newInstance("Redstone_Husk", redsonthusk, "Redstone Primer Block");
         parentMod.blockRegistry.newInstance("explocharge", explocharge, "Explocharge");
         parentMod.blockRegistry.newInstance("felt", feltgenerate, "Field Generator");
+
+        parentMod.blockRegistry.newInstance("download (3)", oppBlock, "Opp Block");
+        parentMod.blockRegistry.newInstance("download (2)", sheepBlock, "Sheep Block");
+        parentMod.blockRegistry.newInstance("heyyfysfsd", policeBlock, "Police Block");
+        parentMod.blockRegistry.newInstance("th (3)", texturedBlock, "Textured Block");
+        parentMod.blockRegistry.newInstance("th (2)", goatBlock, "GoatBlock");
     }
 }
