@@ -17,6 +17,9 @@ public class BlocksModule extends Module {
     public static final InfectedBlock infectedBlock = new InfectedBlock();
     public static final ParadoxVine[] vines = {new ParadoxVine(0),new ParadoxVine(1),new ParadoxVine(2),new ParadoxVine(3),new ParadoxVine(4),new ParadoxVine(5),new ParadoxVine(6),new ParadoxVine(7),new ParadoxVine(8),new ParadoxVine(9),new ParadoxVine(10),new ParadoxVine(11),new ParadoxVine(12)};
 
+    public static final TeleporterBlock teleporterBlock = new TeleporterBlock();
+    public static final EndPointBlock endpointBlock = new EndPointBlock();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -28,5 +31,8 @@ public class BlocksModule extends Module {
         for(int i=1;i<13;i++){
             parentMod.blockRegistry.newInstance("vine" + i, vines[i], "Vine Block" + i);
         }
+
+        parentMod.blockRegistry.newInstance("teleporter_block", teleporterBlock, "Teleporter Block");
+        parentMod.blockRegistry.newInstance("endpoint_block", endpointBlock, "End Point");
     }
 }

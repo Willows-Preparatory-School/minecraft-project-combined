@@ -9,5 +9,7 @@ public class EntitiesModule extends Module
         // Register custom TealsMC Mod Entities.
         parentMod.entityRegistry.newInstance("leafbot", LeafBot.class, "rainbow_robot");
         parentMod.entityRegistry.newInstance("virusbot", VirusRobot.class, "red_robot");
+
+        parentMod.entityRegistry.newInstance("spinningbot", DiscEntity.class, "spinning_disc_entity");
     }
 }
