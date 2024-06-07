@@ -12,6 +12,10 @@ public class ItemsModule extends Module {
 
     public static final DiscItem spinningDisc = new DiscItem();
 
+    public static final TheDecimator decimator = new TheDecimator();
+    public static final TheLevitator levitator = new TheLevitator();
+    public static final TheConstructor constructor = new TheConstructor();
+
     public void onLoad() {
         parentMod.itemRegistry.newInstance("rock_sifter", rockSifter, "Rock Sifter");
         parentMod.itemRegistry.newInstance("lightning_stick", lightningStick, "Lightning Stick");
@@ -20,5 +24,9 @@ public class ItemsModule extends Module {
         parentMod.itemRegistry.newInstance("vine_wand", vinewand, "Paradox Wand");
 
         parentMod.itemRegistry.newInstance("spinning_disc", spinningDisc, "Krishna's Disc");
+        
+        parentMod.itemRegistry.newInstance("the_decimator", decimator, "The Decimator");
+        parentMod.itemRegistry.newInstance("the_levitator", levitator, "The Levitator");
+        parentMod.itemRegistry.newInstance("the_constructor", constructor, "The Constructor");
     }
 }

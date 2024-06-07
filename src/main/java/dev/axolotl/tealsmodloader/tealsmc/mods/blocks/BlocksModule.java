@@ -20,6 +20,8 @@ public class BlocksModule extends Module {
     public static final TeleporterBlock teleporterBlock = new TeleporterBlock();
     public static final EndPointBlock endpointBlock = new EndPointBlock();
 
+    public static final UselessBox uselessBox = new UselessBox();
+
     public void onLoad() {
         parentMod.blockRegistry.newInstance("amethyst_ore", amethystOre, "Amethyst Ore");
         parentMod.blockRegistry.newInstance("super_tnt", super_tnt, "Super TNT");
@@ -34,5 +36,7 @@ public class BlocksModule extends Module {
 
         parentMod.blockRegistry.newInstance("teleporter_block", teleporterBlock, "Teleporter Block");
         parentMod.blockRegistry.newInstance("endpoint_block", endpointBlock, "End Point");
+
+        parentMod.blockRegistry.newInstance("useless_box", uselessBox, "Useless Box");
     }
 }
