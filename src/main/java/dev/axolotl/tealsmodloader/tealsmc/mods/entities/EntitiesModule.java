@@ -15,5 +15,9 @@ public class EntitiesModule extends Module
         parentMod.entityRegistry.newInstance ("leafbot", LeafBot.class, "green_robot");
         parentMod.entityRegistry.newInstance("virusbot", VirusRobot.class, "red_robot");
         parentMod.entityRegistry.newInstance("dodbot", DODRobot.class, "gray_robot");
+
+        parentMod.entityRegistry.newInstance ("strawberrysquid", StrawberrySquid.class, "realstrawberrysquid");
+        parentMod.entityRegistry.newInstance ("grapesquid", GrapeSquid.class, "realgrapesquid");
+        parentMod.entityRegistry.newInstance ("orangesquid", OrangeSquid.class, "realorangesquid");
     }
 }

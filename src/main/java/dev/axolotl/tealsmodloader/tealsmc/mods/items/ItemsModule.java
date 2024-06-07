@@ -25,6 +25,8 @@ public class ItemsModule extends Module {
     public static final UnrefinedPlastic unrefinedPlastic = new UnrefinedPlastic();
     public static final PlasticRefiner plasticRefiner = new PlasticRefiner();
 
+    public static final GiftBox giftBox = new GiftBox();
+
     public void onLoad() {
         parentMod.itemRegistry.newInstance("rock_sifter", rockSifter, "Rock Sifter");
         parentMod.itemRegistry.newInstance("lightning_stick", lightningStick, "Lightning Stick");
@@ -47,5 +49,6 @@ public class ItemsModule extends Module {
         parentMod.itemRegistry.newInstance("unrefined_plastic", unrefinedPlastic, "Unrefined Plastic");
         parentMod.itemRegistry.newInstance("plastic_refiner", plasticRefiner, "Plastic Refiner");
 
+        parentMod.itemRegistry.newInstance("realgiftbox", giftBox, "Gift Box");
     }
 }
