@@ -152,11 +152,8 @@ public class TEALSModLoader
 
         System.out.println("Init entities...");
         int modEntityID = 10; // Starting at 10, just in case :>
-        // Example of registering an entity.
-        /*
-        EntityRegistry.registerModEntity(EntityMolotov.class, "Molotov", ++modEntityID, instance, 64, 10, true);
-         */
 
+        EntityRegistry.registerModEntity(EntityMolotov.class, "Molotov", ++modEntityID, instance, 64, 10, true);
 
         //Keep the world time forced to mid day.
         Timer timer = new Timer();
@@ -174,10 +171,7 @@ public class TEALSModLoader
             }
         }, 0, 200);
 
-        // Example of registering a new entity renderer.
-        /*
-        RenderingRegistry.registerEntityRenderingHandler(EntityMolotov.class, new RenderSnowball(ItemsModule.molotov);
-        */
+        RenderingRegistry.registerEntityRenderingHandler(EntityMolotov.class, new RenderSnowball(ItemsModule.molotov));
     }
 
     public void registerEntityModifier(BaseEntityModifier modifier) {
